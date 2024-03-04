@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(17, 4, 40);
+  color: cadetblue;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  align-items: center;
+  min-height: 50vh;
+  color: cadetblue;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(0);
+  transition: all 3s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+}
+
+.abouts{
+    display: flex;
+   resize: 1vh;
+}
+
+img{
+    height: 50vh;
+}
+    
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact input,
+#contact textarea,
+#contact button {
+  align-items: center;
+  margin: 10px 0; /* Add some space around each input, textarea, and button */
+  width: 90%; /* Adjust the width as necessary */
+  padding: 10px; /* Add some padding for better appearance */
+}
+
+#contact textarea {
+  resize: vertical;
+}
+button {
+  max-width: fit-content;
+}
+
+/* #banner{ 
+    background-image: url("assets/banner.png");
+    background-color: bisque;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;  
+    position: relative;  
+}
+.scroll-down{
+    position:absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color:cornflowerblue;
+    animation: blink 2s infinite;
+}
+
+#about{ 
+    background-color: burlywood;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+    overflow: hidden;
+    height: 100vh;
+    
+}
+.about-img, .about-text {
+    flex: 1;
+    min-width: 0;
+    word-wrap: break-word;
+}
+.about-text{
+    font-size: calc(1vw+1em);
+}
+.about-img{
+    min-height: 300px;
+    background-image: url("assets/aboutholder.png") ;
+    background-color: rgb(55, 54, 53);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;  
+    position: relative;
+    height: 100%;
+
+}
+#contact { 
+    background-color: rgb(180, 135, 222);
+}
+
+#schedule { background-color: rgb(114, 195, 137);}
+
+.animated{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+} */
